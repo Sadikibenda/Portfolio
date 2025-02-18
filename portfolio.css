@@ -316,6 +316,8 @@ button:hover {
   background-repeat: no-repeat;
   height: 400px;
   width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
 }
 
 .card2{
@@ -325,6 +327,8 @@ button:hover {
   background-repeat: no-repeat;
   height: 400px;
   width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
 }
 
 .card3{
@@ -334,6 +338,8 @@ button:hover {
   background-repeat: no-repeat;
   height: 400px;
   width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
 }
 
 .card4{
@@ -343,34 +349,45 @@ button:hover {
   background-repeat: no-repeat;
   height: 400px;
   width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  /*box-shadow: 8px 4px 15px 4px rgba(237, 141, 141, 0.91);*/
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
 }
 
 .card-description{
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 10px 10px;
 }
 
 .card-description h6{
   background-color: rgba(0, 0, 0, 0.3);
-  color: red;
+  color: rgb(28, 183, 26);
   font-size: 15px;
 }
 
 .card-description p{
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding:  0 5px 10px 10px;
   font-size: 15px;
   background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
 }
 
 progress{
   width: 80%;
   height: 20px;
   margin: 5px;
-  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
 }
+
+.card4 progress::-webkit-progress-bar {
+  background-color: #2e2929;
+}
+
+
 
 
 /* Media Queries */
