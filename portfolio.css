@@ -291,6 +291,87 @@ button:hover {
   font-size: 30px;
 }
 
+/* Projects Section */
+
+.card-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  min-width: 350px;
+  margin-top: 80px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card1{
+  background-image: url(images/Benda\ Express\ screenshot.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+}
+
+.card2{
+  background-image: url(images/SD\ screenshot.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+}
+
+.card3{
+  background-image: url(images/azfar\ media\ screenshot.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+}
+
+.card4{
+  background-image: url(images/FEM\ screenshot.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-description h6{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: red;
+  font-size: 15px;
+}
+
+.card-description p{
+  color: white;
+  text-align: center;
+  padding:  0 5px 10px 10px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+progress{
+  width: 80%;
+  height: 20px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 /* Media Queries */
 
@@ -382,6 +463,17 @@ button:hover {
     margin: 50px 0 0 50px;
     text-align: left;
   }
+
+  .card-Container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure cards wrap */
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  
 }
 
    /* Desktop */
