@@ -387,6 +387,83 @@ progress{
   background-color: #2e2929;
 }
 
+/* Resume Section */
+
+.resume-container {
+  min-width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head h2 {
+  margin: 0;
+  color: #f6f1f1;
+}
+
+head p {
+  margin: 5px 0;
+}
+
+a {
+  color: #9fc5ee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.entry{
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  
+}
+
+.entry li {
+  padding-bottom: 10px;
+}
+
+.entry span {
+  font-weight: bold;
+  float: right;
+  padding-right: 5px;
+}
+
+ .certifications ul, .skills .entry{
+  padding: 20px 10px 10px 10px;
+
+ }
+
+
+  
+
+h2 {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  color: #d7e0fe;
+}
+
+ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
 
 
 
@@ -481,13 +558,6 @@ progress{
     text-align: left;
   }
 
-  .card-Container {
-    display: flex;
-    flex-wrap: wrap; /* Ensure cards wrap */
-    justify-content: center;
-    align-items: center;
-  }
-
   
 
   
@@ -546,6 +616,7 @@ progress{
     margin: 50px 0 0 50px;
     text-align: left;
   }
+  
 } 
 
 
