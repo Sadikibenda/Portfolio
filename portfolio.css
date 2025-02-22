@@ -150,25 +150,14 @@ body{
   h1{
     color: rgb(244, 244, 244);
     overflow: hidden;
-    border-right: 3px solid red;
-    white-space: nowrap; /* Prevent text wrap */
+    text-align: center;
     letter-spacing: 2px;
-    animation: typing 3s steps(20, end) infinite, blink 0.5s step-end infinite;
-    width: fit-content;
   }
 
-  @keyframes typing {
-    0% {width: 0;}
-    50% {width: 100%;}
-    100% {width: 0;}
-  }
-
-  @keyframes blink {
-    from, to {border-color: transparent;}
-    50% {border-color: red;}
-  }
-  .typing{
-    color: red;
+  .name{
+    color: rgb(250, 47, 47);
+    font-size: 30px;
+    margin-top: 20px;
   }
 
 button {
@@ -191,6 +180,12 @@ button a:hover {
 button:hover {
     background-color: red;
     transition: .7s;
+}
+
+i:hover{
+    color: red;
+    transition: .7s;
+    background-color: red;
 }
 
 
@@ -299,7 +294,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .card{
@@ -354,6 +348,28 @@ button:hover {
   box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
 }
 
+.card5{
+  background-image: url(images/ISM\ portfolio.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
+}
+
+.card6{
+  background-image: url(images/Pacific\ Trail\ resort\ project.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(111, 111, 111, 0.91);
+}
+
 .card-description{
   position: absolute;
   bottom: 0;
@@ -374,6 +390,7 @@ button:hover {
   font-size: 15px;
   background-color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 progress{
@@ -519,7 +536,7 @@ li {
   }
 
   .contact-section{
-    
+    min-width: 100vh;
   }
 
   
@@ -558,6 +575,52 @@ li {
     text-align: left;
   }
 
+  .card-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card{
+    min-width: 280px;
+    margin-top: 80px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .card1{
+    width: 280px;
+    height: 300px;
+  }
+
+  .card2{
+    width: 280px;
+    height: 300px;
+  }
+
+  .card3{
+    width: 280px;
+    height: 300px;
+  }
+
+  .card4{
+    width: 280px;
+    height: 300px;
+  }
+
+  .card5{
+    width: 280px;
+    height: 300px;
+  }
+
+  .card6{
+    width: 280px;
+    height: 300px;
+  }
+
   
 
   
@@ -589,6 +652,10 @@ li {
     margin: 0 auto;
     text-align: center;
     margin-top: 70px;
+  }
+
+  .about h1{
+    text-align: center;
   }
 
   .about-intro1{
